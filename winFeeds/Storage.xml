@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Storage>
+	<Location>
+		<Path>Profile/AppData/Local/TheWindowsClub/TheWindowsClub</Path>
+		<File>TheWindowsClubGadget.xml</File>
+		<Debug>TheWindowsClubGadget.txt</Debug>
+	</Location>
+	<Data>
+		<Value Name="Theme" Default="1" />
+		<Value Name="Display" Default="Browser" />
+		<Value Name="Size_Dock" Default="Small" />
+		<Value Name="Size_UnDock" Default="Small" />
+		<Value Name="Interval" Default="60" />
+		<Value Name="Auto_Scroll" Default="20" />		
+		<Value Name="Override_Desc" Default="No" />
+		<Value Name="Browser_Size" Default="850x540" />
+		<Value Name="Entry_Disp" Default="5" />
+		<Value Name="Flyout_Focus" Default="Off" />
+	</Data>
+</Storage>

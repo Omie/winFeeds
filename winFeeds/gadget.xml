@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gadget>
+    <name>Windows Feeds</name>
+    <version>1.0</version>
+     <author name="The Windows Club">
+		<logo src="../Images/Logo-TWC.png" />
+		<info url="www.thewindowsclub.com" />
+     </author>
+    <copyright>2009</copyright>
+    <description>Stay in touch with the latest in the World of Windows</description>
+	<icons>
+		<icon height="48" width="48" src="Images/Icon-WVM.png" />
+	</icons>
+    <hosts>
+        <host name="sidebar">
+            <base type="HTML" apiVersion="1.0.0" src="Gadget.html" />
+            <permissions>full</permissions>
+            <platform minPlatformVersion="1.0" />
+        </host>
+    </hosts>
+</gadget>

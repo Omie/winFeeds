@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>RSS Gadget</title>
+	<link rel="stylesheet" href="CSS/Gadget.css" type="text/css" />
+	<script type="text/javascript" src="JS/Gadget.js"></script>
+	<script type="text/javascript" src="JS/Utility.js"></script>
+</head>
+
+<body>
+	<!-- coded by http://wecode.in -->
+	<!-- Gadget Display Div -->
+	<div id="Gadget-Content">
+		<script type="text/javascript">
+			GADGET_GEN_Init();
+			System.Gadget.onDock = GADGET_GEN_Check_Dock;
+			System.Gadget.onUndock = GADGET_GEN_Check_Dock;
+		</script>
+	</div>
+	
+	<!-- Feed Storage Area -->
+	<div id="Gadget-Feed" class="Hidden"></div>
+	
+</body>
+</html>
+<!-- Omie -->

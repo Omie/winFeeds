@@ -1,0 +1,175 @@
+body { 
+	margin: 0;
+	padding: 0;
+	width: 130px;
+	height: 243px;
+	background: url('../Images/Themes/BG-Gadget-1-Small.png') no-repeat;
+	color: #FFF;
+	text-align: center;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	}
+	
+a img {
+	border: none;
+	}
+	
+a:link, a:visited {
+	color: #FFF;
+	text-decoration: none;
+	}
+
+a:hover {
+	color: #ceeaff;
+	text-decoration: underline;
+	}
+	
+.Hidden {
+	display:none;
+	}
+	
+.SM-Logo-Top {
+	margin: 0 0 0 1px;
+	padding: 0;
+	width: 128px;
+	height: 30px;
+	background: url('../Images/Logos/SM-Logo-Top.png') no-repeat;
+	}
+	
+.SM-Sec-Feed-5 {
+	margin: 2px 0 0 1px;
+	padding: 0;
+	width: 128px;
+	height: 175px;
+	}
+	
+.SM-Button-Left {
+	margin: 2px 0 0 1px;
+	padding: 0;
+	width: 38px;
+	height: 16px;
+	background: url('../Images/Buttons/SM-Button-Left.png') 0px -32px no-repeat;
+	cursor: pointer;
+	float: left;
+	}
+	
+/*.SM-Button-Left:hover {
+	background: url('../Images/Buttons/SM-Button-Left.png') 0px -16px no-repeat;
+	}*/
+	
+.SM-Button-Left-Dark {
+	margin: 2px 0 0 1px;
+	padding: 0;
+	width: 38px;
+	height: 16px;
+	background: url('../Images/Buttons/SM-Button-Left.png') 0px -32px no-repeat;
+	float: left;
+	}
+	
+.SM-Button-Right {
+	margin: 2px 0 0 1px;
+	padding: 0;
+	width: 38px;
+	height: 16px;
+	background: url('../Images/Buttons/SM-Button-Right.png') 0px -32px no-repeat;
+	cursor: pointer;
+	float: left;
+	}
+	
+/*.SM-Button-Right:hover {
+	background: url('../Images/Buttons/SM-Button-Right.png') 0px -16px no-repeat;
+	} */
+	
+.SM-Button-Right-Dark {
+	margin: 2px 0 0 1px;
+	padding: 0;
+	width: 38px;
+	height: 16px;
+	background: url('../Images/Buttons/SM-Button-Right.png') 0px -32px no-repeat;
+	float: left;
+	}
+	
+.SM-BG-Control {
+	margin: 2px 0 0 1px;
+	padding: 0;
+	width: 48px;
+	height: 16px;
+	background: url('../Images/BG/SM-BG-Control.png') 0px -16px no-repeat;
+	float: left;
+	color: #3c4851;
+	font-size: 10px;
+	}
+	
+.SM-BG-Control-Dark {
+	margin: 2px 0 0 1px;
+	padding: 0;
+	width: 48px;
+	height: 16px;
+	background: url('../Images/BG/SM-BG-Control.png') 0px -16px no-repeat;
+	float: left;
+	}
+
+#Button-Retry {
+	margin: 0;
+	padding: 0;
+	width: 100px;
+	height: 16px;
+	background: url('../Images/Buttons/Button-Retry.png') 0px 0px no-repeat;
+	cursor: pointer;
+	}
+	
+#Button-Retry:hover {
+	background: url('../Images/Buttons/Button-Retry.png') 0px -16px no-repeat;
+	}
+
+.SM-Feed-Entry {
+	margin: 0;
+	padding: 2px 0 0 0;
+	width: 128px;
+	height: 33px;
+	overflow: hidden;
+	background: url('../Images/BG/BG-Feed-Entry.png') 0px 0px repeat-x;
+	line-height: 15px;
+	cursor: pointer;
+	}
+	
+.SM-Feed-Entry:hover {
+	background: url('../Images/BG/BG-Feed-Entry.png') 0px -35px repeat-x;
+	}
+	
+.SM-Feed-Entry-Active {
+	margin: 0;
+	padding: 2px 0 0 0;
+	width: 128px;
+	height: 33px;
+	overflow: hidden;
+	background: #085278 url('../Images/BG/BG-Feed-Entry.png') 0px -35px repeat-x;
+	line-height: 15px;
+	}
+	
+.SM-Feed-Entry-Title {
+	margin-left: 2px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 10px;
+	width: 126px;
+	overflow: hidden;
+	}
+	
+.SM-Feed-Entry-Date {
+	margin-left: 2px;
+	text-align: left;
+	font-size: 10px;
+	color: #ceecff;
+	float: left;
+	}
+	
+.SM-Feed-Entry-Close {
+	margin-right: 2px;
+	text-align: right;
+	font-size: 10px;
+	color: #ceecff;
+	float: right;
+	cursor: pointer;
+	display: none;
+	}
